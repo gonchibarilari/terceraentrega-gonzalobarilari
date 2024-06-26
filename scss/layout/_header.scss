@@ -1,0 +1,19 @@
+.header-index {
+    display: flex;
+    padding: 20px 10px;
+    justify-content: space-between;
+    background-color: rgba(247, 123, 123, 0.7);
+    padding: 20px;
+    h1 a{
+        text-align: center;
+        font-size: 30px;
+        font-weight: bold;
+        color: $color-letra;
+    }
+    nav {
+        padding: 15px;
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+    }
+}

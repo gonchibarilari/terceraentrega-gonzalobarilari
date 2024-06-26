@@ -1,0 +1,28 @@
+/* lo primero que tenemo que hacer siempre es llamar a los archivos que corresponden a las utilies*/
+@import "./utilities/variables";
+/* se llaman a las partials que corresponden a la carpeta base*/
+@import "./base/reset";
+/* despues siguen los componentes o todo lo que corresponde a los layout*/
+@import "./layout/header";
+
+@import "./layout/main-index";
+@import "./layout/footer";
+
+
+/*codigo de los componentes */
+
+@import "./components/navbar";
+@import "./components/card";
+@import "./components/boostrap";
+
+/*POR ULTIMO VAN LOS MEDIAQ
+SI ES DESTOK FISRT LOS MEDIA QUERY VAN EN ORDEN DECRECIENTE
+
+SI VAN EN MOBILE FIRST SON EN ORDEN CRECIENTE*/
+
+
+/* lo primero que tenemo que hacer siempre es llamar a los archivos que corresponden a las utilies*/
+
+/* se llaman a las partials que corresponden a la carpeta base*/
+
+/* despues siguen los componentes o todo lo que corresponde a los layout*/
