@@ -1,109 +1,125 @@
 /* lo primero que tenemo que hacer siempre es llamar a los archivos que corresponden a las utilies*/
 /* se llaman a las partials que corresponden a la carpeta base*/
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-image: url(https://cdn.pixabay.com/photo/2021/09/13/21/06/floral-background-6622475_1280.png);
-    background-color: black;
-    opacity: 0.9;
-    z-index: 1;
+  background-image: url(https://cdn.pixabay.com/photo/2021/09/13/21/06/floral-background-6622475_1280.png);
+  background-color: black;
+  opacity: 0.9;
+  z-index: 1;
 }
 
 /* despues siguen los componentes o todo lo que corresponde a los layout*/
 .header-index {
-    display: flex;
-    padding: 20px 10px;
-    justify-content: space-between;
-    background-color: rgba(247, 123, 123, 0.7);
-    padding: 20px;
+  display: flex;
+  padding: 20px 10px;
+  justify-content: space-between;
+  background-color: rgba(247, 123, 123, 0.7);
+  padding: 20px;
 }
-
 .header-index h1 a {
-    text-align: center;
-    font-size: 30px;
-    font-weight: bold;
-    color: rgb(240, 240, 240);
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(240, 240, 240);
 }
-
 .header-index nav {
-    padding: 15px;
-    font-size: 20px;
-    text-align: center;
-    justify-content: center;
+  padding: 15px;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
 }
 
 .section-principal {
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    padding: 50px;
-    background-color: rgba(0, 0, 0, 0.1);
-    color: rgb(240, 240, 240);
-    text-shadow: 2px 2px 4px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: rgb(240, 240, 240);
+  text-shadow: 2px 2px 4px;
 }
 
-.contenedor {
-    display: flex;
-    align-items: center;
-    background-color: rgba(0, 0, 0, 0.1);
+.contenedor-main {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
 }
-
-.contenedor img {
-    max-width: 100%;
-    margin-right: 20px;
-    padding: 50px;
-    z-index: 999;
+.contenedor-main img {
+  max-width: 100%;
+  margin-right: 20px;
+  padding: 50px;
+  z-index: 999;
 }
-
-.contenedor .contenedor-texto {
-    padding: 40px;
+.contenedor-main .contenedor-texto {
+  padding: 40px;
 }
-
-.contenedor h2 {
-    font-size: 3em;
-    color: black;
-    margin-bottom: 15px;
-    text-align: center;
-    text-shadow: 1px 1px 2px;
+.contenedor-main h2 {
+  font-size: 3em;
+  color: black;
+  margin-bottom: 15px;
+  text-align: center;
+  text-shadow: 1px 1px 2px;
 }
-
-.contenedor p {
-    color: black;
-    text-align: center;
+.contenedor-main p {
+  color: black;
+  text-align: center;
 }
-
-.contenedor button {
-    display: block;
-    margin: 0 auto;
-    padding: 10px;
+.contenedor-main button {
+  display: block;
+  margin: 0 auto;
+  padding: 10px;
 }
 
 footer {
-    background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  .navbar .navbar li {
+    text-align: center;
+    margin: 10px 0;
+    justify-content: center;
+  }
+}
+@media (max-width: 768px) {
+  .section-principal {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  .contenedor-main {
+    display: flex;
+    flex-direction: column;
+  }
+}
 /*codigo de los componentes */
 .navbar {
-    display: flex;
-    flex-direction: row;
-    gap: 0.9375rem;
-    list-style: none;
-    padding: 10px;
-    color: red;
-    text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  gap: 0.9375rem;
+  list-style: none;
+  padding: 10px;
+  color: red;
+  text-decoration: none;
 }
-
 .navbar li a {
-    text-decoration: none;
-    color: rgb(240, 240, 240);
+  text-decoration: none;
+  color: rgb(240, 240, 240);
 }
-
 .navbar li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /*POR ULTIMO VAN LOS MEDIAQ

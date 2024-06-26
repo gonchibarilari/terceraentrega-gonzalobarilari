@@ -1,0 +1,26 @@
+@media (max-width:768px){
+    .navbar{
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        .navbar li{
+            text-align: center;
+            margin: 10px 0;
+            justify-content: center;
+        }
+    }
+}
+
+@media (max-width:768px){
+    .section-principal{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+@media (max-width:768px){
+    .contenedor-main{
+        display: flex;
+        flex-direction: column;
+    }
+}
