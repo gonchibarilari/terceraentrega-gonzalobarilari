@@ -1,5 +1,7 @@
 /* lo primero que tenemo que hacer siempre es llamar a los archivos que corresponden a las utilies*/
 @import "./utilities/variables";
+@import "./utilities/mixins";
+
 /* se llaman a las partials que corresponden a la carpeta base*/
 @import "./base/reset";
 /* despues siguen los componentes o todo lo que corresponde a los layout*/
