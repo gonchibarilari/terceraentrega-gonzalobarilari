@@ -1,5 +1,5 @@
 .section-principal {
-@include flex;
+    @include flex;
     padding: 50px;
     background-color: rgba(0, 0, 0, 0.1);
     color: $color-letra;
@@ -11,20 +11,24 @@
     display: flex;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.1);
+
     img {
         max-width: 100%;
         margin-right: 20px;
         padding: 50px;
         z-index: 999;
-        &:hover{
+
+        &:hover {
             transform: scale(1.1);
             filter: drop-shadow(2px 2px 5px rgb(49, 49, 49));
             transition: transform 2s linear, filter 2s linear;
         }
     }
+
     .contenedor-texto {
         padding: 40px;
     }
+
     h2 {
         font-size: 3em;
         color: black;
@@ -32,15 +36,18 @@
         text-align: center;
         text-shadow: 1px 1px 2px;
     }
+
     p {
         color: black;
         text-align: center;
     }
+
     button {
         display: block;
         margin: 0 auto;
         padding: 10px;
-        &:hover{
+
+        &:hover {
             background-color: grey;
         }
     }
@@ -51,20 +58,24 @@
     align-items: center;
     flex-direction: row-reverse;
     background-color: rgba(0, 0, 0, 0.1);
+
     img {
         max-width: 100%;
         margin-right: 20px;
         padding: 50px;
         z-index: 999;
-        &:hover{
+
+        &:hover {
             transform: scale(1.1);
             filter: drop-shadow(2px 2px 5px rgb(49, 49, 49));
             transition: transform 2s linear, filter 2s linear;
         }
     }
+
     .contenedor-texto1 {
         padding: 40px;
     }
+
     h2 {
         font-size: 3em;
         color: black;
@@ -72,28 +83,31 @@
         text-align: center;
         text-shadow: 1px 1px 2px;
     }
+
     p {
         color: black;
         text-align: center;
     }
+
     button {
         display: block;
         margin: 0 auto;
         padding: 10px;
-        &:hover{
+
+        &:hover {
             background-color: grey;
         }
     }
 }
 
-.section-secundaria{
+.section-secundaria {
     @include flex;
     padding: 20px;
     color: $color-letra;
     text-shadow: 2px 2px 4px;
 }
 
-.calendario{
+.calendario {
     background-image: none;
     text-align: center;
     width: 100%;
@@ -101,46 +115,134 @@
     font-size: 30px;
     background-color: rgba(0, 0, 0, 0.1);
     z-index: 99;
-    .titulo-calendario{
+
+    .titulo-calendario {
         color: $color-letra;
         text-shadow: 2px 2px 4px;
     }
-    .button-calendario{
+
+    .button-calendario {
         font-size: 20px;
-        &:hover{
+
+        &:hover {
             background-color: grey;
         }
     }
-    .fechas{
+
+    .fechas {
         display: grid;
         list-style: none;
         grid-template-columns: repeat(7, 1fr);
         padding: 20px;
-        .dias{
+
+        .dias {
             background-color: grey;
             font-weight: bold;
         }
     }
 }
-.titulo-turno{
+
+.titulo-turno {
     display: flex;
     justify-content: first baseline;
     background-color: rgba(0, 0, 0, 0.1);
     color: $color-letra;
-        text-shadow: 2px 2px 4px;
-        padding: 30px;
+    text-shadow: 2px 2px 4px;
+    padding: 30px;
 }
-.contenedor-caracteristicas{
+
+.contenedor-caracteristicas {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     text-align: center;
     grid-gap: 20px;
     padding: 20px;
     background-color: rgba(0, 0, 0, 0.1);
-    .caracteristica{
+
+    .caracteristica {
         border-radius: 5px;
         color: white;
         font-size: 15px;
         font-family: Arial, Helvetica, sans-serif;
     }
+}
+
+
+.seccionuno {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 40px;
+
+    .contenido-seccionuno {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 30px;
+        text-align: center;
+    }
+    .titulo-seccionuno {
+        display: flex;
+        justify-content: center;
+        color: $color-letra;
+        text-shadow: 2px 2px 4px;
+        font-size: 40px;
+        font-weight: bold;
+        padding: 20px;
+    }
+    .texto-seccionuno{
+        font-size: 30px;
+        text-align: center;
+        justify-content: center;
+        color: white;
+    }
+}
+
+.secciondos {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 40px;
+
+
+    .contenido-secciondos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 30px;
+        padding: 50px;
+        text-align: center;
+        flex-grow: 1;
+    }
+
+    .titulo-secciondos {
+        display: flex;
+        justify-content: center;
+        color: $color-letra;
+        text-shadow: 2px 2px 4px;
+        font-size: 40px;
+        font-weight: bold;
+        padding: 20px;
+    }
+    .texto-secciondos{
+        margin-bottom: 50px;
+        color: white;
+        list-style: none;
+    }
+}
+
+.titulo-servicios{
+    display: flex;
+    justify-content: center;
+    color: $color-letra;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px;
+    padding: 30px;
 }
