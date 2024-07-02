@@ -23,7 +23,7 @@ body {
 }
 .header-index h1 a {
   text-align: center;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
   color: rgb(240, 240, 240);
 }
@@ -60,18 +60,24 @@ body {
   filter: drop-shadow(2px 2px 5px rgb(49, 49, 49));
   transition: transform 2s linear, filter 2s linear;
 }
+.contenedor-main .titulo-index {
+  color: rgb(119, 36, 26);
+  background-color: rgba(0, 0, 0, 0.1);
+  text-shadow: 2px 2px 4px;
+}
 .contenedor-main .contenedor-texto {
+  font-size: 30px;
   padding: 40px;
+  color: white;
 }
 .contenedor-main h2 {
-  font-size: 3em;
+  font-size: 2em;
   color: black;
   margin-bottom: 15px;
   text-align: center;
   text-shadow: 1px 1px 2px;
 }
 .contenedor-main p {
-  color: black;
   text-align: center;
 }
 .contenedor-main button {
@@ -102,16 +108,21 @@ body {
 }
 .contenedor-main1 .contenedor-texto1 {
   padding: 40px;
+  font-size: 30px;
+  color: white;
 }
 .contenedor-main1 h2 {
-  font-size: 3em;
+  font-size: 2em;
   color: black;
   margin-bottom: 15px;
   text-align: center;
   text-shadow: 1px 1px 2px;
 }
+.contenedor-main1 .titulo-index {
+  color: rgb(119, 36, 26);
+  text-shadow: 2px 2px 4px;
+}
 .contenedor-main1 p {
-  color: black;
   text-align: center;
 }
 .contenedor-main1 button {
@@ -184,6 +195,10 @@ body {
   color: white;
   font-size: 15px;
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo-servicios {
+  font-size: 70px;
 }
 
 .seccionuno {
@@ -319,6 +334,11 @@ footer {
 @media (max-width: 768px) {
   .titulo-seccionuno {
     font-size: 20px;
+  }
+}
+@media (max-width: 768px) {
+  .fechas {
+    font-size: 15px;
   }
 }
 @media (max-width: 425px) {

@@ -24,13 +24,20 @@
             transition: transform 2s linear, filter 2s linear;
         }
     }
+    .titulo-index{
+        color: rgb(119, 36, 26);
+        background-color: rgba(0, 0, 0, 0.1);
+        text-shadow: 2px 2px 4px;
+    }
 
     .contenedor-texto {
+        font-size: 30px;
         padding: 40px;
+        color: white;
     }
 
     h2 {
-        font-size: 3em;
+        font-size: 2em;
         color: black;
         margin-bottom: 15px;
         text-align: center;
@@ -38,7 +45,7 @@
     }
 
     p {
-        color: black;
+
         text-align: center;
     }
 
@@ -74,18 +81,23 @@
 
     .contenedor-texto1 {
         padding: 40px;
+        font-size: 30px;
+        color: white;
     }
 
     h2 {
-        font-size: 3em;
+        font-size: 2em;
         color: black;
         margin-bottom: 15px;
         text-align: center;
         text-shadow: 1px 1px 2px;
     }
-
+    .titulo-index{
+        color: rgb(119, 36, 26);
+        text-shadow: 2px 2px 4px;
+    }
     p {
-        color: black;
+
         text-align: center;
     }
 
@@ -167,7 +179,9 @@
     }
 }
 
-
+.titulo-servicios{
+    font-size: 70px;
+}
 .seccionuno {
     display: flex;
     align-items: center;
