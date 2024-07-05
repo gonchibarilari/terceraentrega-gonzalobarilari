@@ -10,3 +10,43 @@
     }
 
 }
+
+@media (max-width:425px) {
+    .contenedor-texto p{
+        font-size: 15px;
+    }
+    .contenedor-main h2{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .contenedor-main img{
+        padding: 20px;
+        transform: none;
+        transition: none;
+    }
+    .contenedor-main button{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:425px) {
+    .contenedor-texto1 p{
+        font-size: 15px;
+    }
+    .contenedor-main1 h2{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .contenedor-main1 img{
+        padding: 20px;
+        transform: none;
+        transition: none;
+        filter: none;
+    }
+    .contenedor-mai1n button{
+        font-size: 10px;
+    }
+    .boton-index{
+        font-size: 15px;
+    }
+}
