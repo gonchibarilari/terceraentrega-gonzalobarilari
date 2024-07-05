@@ -278,6 +278,40 @@ footer {
   background-color: rgba(0, 0, 0, 0.1);
 }
 
+@media (max-width: 1440px) {
+  .contenedor-texto p {
+    font-size: 22px;
+  }
+  .contenedor-main h2 {
+    font-size: 30px;
+    padding: 10px;
+  }
+  .contenedor-main img {
+    padding: 20px;
+    transform: none;
+    transition: none;
+  }
+  .contenedor-main button {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1440px) {
+  .contenedor-texto1 p {
+    font-size: 22px;
+  }
+  .contenedor-main1 h2 {
+    font-size: 30px;
+    padding: 10px;
+  }
+  .contenedor-main1 img {
+    padding: 20px;
+    transform: none;
+    transition: none;
+  }
+  .contenedor-main1 button {
+    font-size: 13px;
+  }
+}
 @media (max-width: 1024px) {
   .seccionuno {
     flex-direction: column;
@@ -289,6 +323,40 @@ footer {
 @media (max-width: 1024px) {
   .secciondos {
     flex-direction: column;
+  }
+}
+@media (max-width: 1024px) {
+  .contenedor-texto p {
+    font-size: 18px;
+  }
+  .contenedor-main h2 {
+    font-size: 17px;
+    padding: 10px;
+  }
+  .contenedor-main img {
+    padding: 20px;
+    transform: none;
+    transition: none;
+  }
+  .contenedor-main button {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1024px) {
+  .contenedor-texto1 p {
+    font-size: 18px;
+  }
+  .contenedor-main1 h2 {
+    font-size: 17px;
+    padding: 10px;
+  }
+  .contenedor-main1 img {
+    padding: 20px;
+    transform: none;
+    transition: none;
+  }
+  .contenedor-main1 button {
+    font-size: 13px;
   }
 }
 @media (max-width: 768px) {
@@ -336,6 +404,40 @@ footer {
 }
 @media (max-width: 768px) {
   .fechas {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .contenedor-texto p {
+    font-size: 20px;
+  }
+  .contenedor-main h2 {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .contenedor-main img {
+    padding: 20px;
+    transform: none;
+    transition: none;
+  }
+  .contenedor-main button {
+    font-size: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .contenedor-texto1 p {
+    font-size: 20px;
+  }
+  .contenedor-main1 h2 {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .contenedor-main1 img {
+    padding: 20px;
+    transform: none;
+    transition: none;
+  }
+  .contenedor-main1 button {
     font-size: 15px;
   }
 }

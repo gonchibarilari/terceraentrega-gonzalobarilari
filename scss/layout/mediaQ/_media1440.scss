@@ -1,24 +1,9 @@
-@media (max-width:1024px){
-    .seccionuno{
-        flex-direction: column;
-    }
-    .titulo-seccionuno{
-        font-size: 0px;
-    }
-}
-
-@media (max-width:1024px){
-    .secciondos{
-        flex-direction: column;
-    }
-}
-
-@media (max-width:1024px) {
+@media (max-width:1440px) {
     .contenedor-texto p{
-        font-size: 18px;
+        font-size: 22px;
     }
     .contenedor-main h2{
-        font-size: 17px;
+        font-size: 30px;
         padding: 10px;
     }
     .contenedor-main img{
@@ -30,13 +15,12 @@
         font-size: 13px;
     }
 }
-
-@media (max-width:1024px) {
+@media (max-width:1440px) {
     .contenedor-texto1 p{
-        font-size: 18px;
+        font-size: 22px;
     }
     .contenedor-main1 h2{
-        font-size: 17px;
+        font-size: 30px;
         padding: 10px;
     }
     .contenedor-main1 img{
