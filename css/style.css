@@ -276,6 +276,12 @@ body {
 
 footer {
   background-color: rgba(0, 0, 0, 0.1);
+  color: white;
+}
+footer .textoblanco {
+  text-decoration: none;
+  list-style: none;
+  color: inherit;
 }
 
 @media (max-width: 1440px) {
@@ -553,14 +559,14 @@ footer {
     display: flex;
     flex-direction: column;
   }
-  .contenido-seccionuno h2 {
-    font-size: 14px;
+  .contenido-seccionuno .titulo-seccionuno {
+    font-size: 20px;
     justify-content: center;
     text-align: center;
   }
   .contenido-seccionuno .texto-seccionuno {
     flex-direction: column;
-    font-size: 14px;
+    font-size: 12px;
     text-align: center;
     justify-content: center;
   }
@@ -568,6 +574,10 @@ footer {
     margin: auto;
   }
 }
+.titulo-servicios {
+  font-size: 20px;
+}
+
 /*codigo de los componentes */
 .navbar {
   display: flex;
